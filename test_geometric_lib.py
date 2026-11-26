@@ -132,7 +132,7 @@ class TriangleTestCase(unittest.TestCase):
 
     def test_perimeter_invalid_type(self):
         with self.assertRaises(TypeError):
-            triangle.perimeter("3", "4", "5")
+            triangle.perimeter("1", "4", "5")
 
 
 if __name__ == "__main__":
